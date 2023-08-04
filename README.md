@@ -1,1 +1,1 @@
-# etch-a-Sketch
+A simple etch-a-sketch game/toy online ! it uses javascript in the back to make it more dynamic.
