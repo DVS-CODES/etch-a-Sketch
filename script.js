@@ -13,7 +13,11 @@ for (i=0;i<input*input;i++) {
     const gridbox = document.createElement('div');
     gridbox.classList.add('gridbox');
     gridbox.textContent = 'h';
-    sketchPad.appendChild(gridbox);       
+    sketchPad.appendChild(gridbox);
+    let calculatedside = Math.sqrt(250000/(input*input))
+    gridbox.style.width = calculatedside+"px";
+    gridbox.style.height = calculatedside+"px";
+    console.log(calculatedside)      
 }
 
 
