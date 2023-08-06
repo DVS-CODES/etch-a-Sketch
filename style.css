@@ -1,6 +1,46 @@
-#container {
-    width: 960px;
+body {
     display: flex;
-    background-color: blue;
+    justify-content: center;
+    
+    margin-top: 100px;
+    background-color: cyan;
 }
 
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 850px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    gap: 25px;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    color: white;
+    
+}
+
+#sketch-pad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255, 247, 0);
+    border-radius: 5px;
+}
+
+.gridbox {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 58px;
+    margin: 0px;
+    padding: 0px0;
+}

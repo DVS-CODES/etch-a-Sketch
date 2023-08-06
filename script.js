@@ -1,4 +1,4 @@
-const container = document.querySelector('#container')
+const sketchPad = document.querySelector('#sketch-pad')
 
 let input = parseInt(prompt("Enter the number of grids you want !"))
 
@@ -13,7 +13,7 @@ for (i=0;i<input*input;i++) {
     const gridbox = document.createElement('div');
     gridbox.classList.add('gridbox');
     gridbox.textContent = 'h';
-    container.appendChild(gridbox);       
+    sketchPad.appendChild(gridbox);       
 }
 
 
