@@ -33,7 +33,7 @@ body {
     width: 500px;
     height: 500px;
     background-color: white;
-    border-radius: 5px;
+    
     box-shadow: 2px 2px grey;
 
 }
@@ -44,12 +44,25 @@ body {
     align-items: center;
     margin: 0px;
     padding: 0px0;
+    
 }
 
 .credit {
     display: block;
     text-decoration: none;
     font-family: 'Roboto', sans-serif; ;
-    margin-top: 50px;
+    margin-top: 60px;
     color: blueviolet;
+    font-size: large;
+}
+
+.reset  {
+    width: 100px;
+    height: 35px;
+    background-color: rgb(113, 215, 113);
+    
+    font-family: 'Roboto', sans-serif; ;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
 }
