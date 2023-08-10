@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 80px;
     background-color: cyan;
 }
 
@@ -32,8 +32,7 @@ body {
     flex-wrap: wrap;
     width: 500px;
     height: 500px;
-    background-color: white;
-    
+    background-color: white; 
     box-shadow: 2px 2px grey;
 
 }
@@ -47,22 +46,32 @@ body {
     
 }
 
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
 .credit {
     display: block;
     text-decoration: none;
     font-family: 'Roboto', sans-serif; ;
-    margin-top: 60px;
+    margin-bottom: 40px;
     color: blueviolet;
     font-size: large;
 }
 
-.reset  {
-    width: 100px;
-    height: 35px;
-    background-color: rgb(113, 215, 113);
-    
+.button-panel {
+    display: flex;
+    gap: 10px;
+}
+
+.button  {
+    width: 70px;
+    height: 28px;
+    background-color: rgb(113, 215, 113);   
     font-family: 'Roboto', sans-serif; ;
     border-radius: 4px;
     font-size: 15px;
     color: white;
+    box-shadow: 3px 3px grey;
 }
