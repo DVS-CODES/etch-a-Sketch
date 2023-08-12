@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 80px;
+    justify-content: space-between;
     background-color: cyan;
 }
 
@@ -17,6 +17,8 @@ body {
     border-radius: 10px;
     gap: 25px;
     box-shadow: 3px 3px darkcyan;
+    border: 1px solid black;
+    margin-top: 50px;
 }
 
 .title {
@@ -34,7 +36,7 @@ body {
     height: 500px;
     background-color: white; 
     box-shadow: 2px 2px grey;
-
+    border: 1px solid black;
 }
 
 .gridbox {
@@ -46,17 +48,24 @@ body {
     
 }
 
+.credit-panel {
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+    
+    justify-self: center;
+}
+
 .logo {
     width: 20px;
-    height: 20px;
+    height: 20px;   
 }
 
 .credit {
     display: block;
     text-decoration: none;
     font-family: 'Roboto', sans-serif; ;
-    margin-bottom: 40px;
-    color: blueviolet;
+    color: rgb(244, 0, 0);
     font-size: large;
 }
 
